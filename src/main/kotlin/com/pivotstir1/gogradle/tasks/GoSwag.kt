@@ -1,8 +1,8 @@
-package com.pivotstir.gogradle.tasks
+package com.pivotstir1.gogradle.tasks
 
-import com.pivotstir.gogradle.GoPlugin
-import com.pivotstir.gogradle.GradleSupport
-import com.pivotstir.gogradle.taskName
+import com.pivotstir1.gogradle.GoPlugin
+import com.pivotstir1.gogradle.GradleSupport
+import com.pivotstir1.gogradle.taskName
 import org.gradle.api.Project
 
 class GoSwagConfig(

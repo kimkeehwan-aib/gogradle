@@ -1,4 +1,4 @@
-package com.pivotstir.gogradle
+package com.pivotstir1.gogradle
 
 import org.gradle.api.Task
 import java.net.URL

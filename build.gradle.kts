@@ -6,8 +6,8 @@ plugins {
     maven
 }
 
-group = "com.pivotstir"
-version = "1.1.5"
+group = "com.pivotstir1"
+version = "1.1.5-swaggo"
 
 repositories {
     jcenter()
@@ -34,15 +34,15 @@ gradlePlugin {
         create("goPlugin") {
             id = "$group.gogradle"
             displayName = "gogradle, Golang plugin"
-            description = "A Golang plugin for building, testing, dependency management and popular frameworks (gRPC, Gin, Swagger, ...) supported"
-            implementationClass = "com.pivotstir.gogradle.GoPlugin"
+            description = "com.pivotstir.gogradle fork, only swaggoVersion changeA Golang plugin for building, testing, dependency management and popular frameworks (gRPC, Gin, Swagger, ...) supported"
+            implementationClass = "com.pivotstir1.gogradle.GoPlugin"
         }
     }
 }
 
 pluginBundle {
-    website = "https://github.com/innobead/gogradle"
-    vcsUrl = "https://github.com/innobead/gogradle.git"
+    website = "https://github.com/kimkeehwan-aib/gogradle"
+    vcsUrl = "https://github.com/kimkeehwan-aib/gogradle.git"
     tags = listOf("go", "grpc", "protobuf")
 
     (plugins) {
@@ -51,7 +51,7 @@ pluginBundle {
 }
 
 allOpen {
-    annotation("com.pivotstir.gogradle.GradleSupport")
+    annotation("com.pivotstir1.gogradle.GradleSupport")
 }
 
 afterEvaluate {

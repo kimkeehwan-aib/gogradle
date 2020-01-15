@@ -1,6 +1,6 @@
-package com.pivotstir.gogradle
+package com.pivotstir1.gogradle
 
-import com.pivotstir.gogradle.tasks.*
+import com.pivotstir1.gogradle.tasks.*
 import org.gradle.api.Action
 import org.gradle.api.Project
 

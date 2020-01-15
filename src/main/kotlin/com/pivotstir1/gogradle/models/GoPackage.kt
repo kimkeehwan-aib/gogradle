@@ -1,4 +1,4 @@
-package com.pivotstir.gogradle.models
+package com.pivotstir1.gogradle.models
 
 
 data class GoPackage(

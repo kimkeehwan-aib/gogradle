@@ -1,8 +1,8 @@
-package com.pivotstir.gogradle.tasks
+package com.pivotstir1.gogradle.tasks
 
 import com.github.zafarkhaja.semver.Version
-import com.pivotstir.gogradle.GoPluginExtension
-import com.pivotstir.gogradle.taskName
+import com.pivotstir1.gogradle.GoPluginExtension
+import com.pivotstir1.gogradle.taskName
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.apache.commons.io.FilenameUtils

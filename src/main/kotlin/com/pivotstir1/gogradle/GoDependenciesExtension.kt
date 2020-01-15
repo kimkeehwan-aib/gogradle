@@ -1,7 +1,7 @@
-package com.pivotstir.gogradle
+package com.pivotstir1.gogradle
 
-import com.pivotstir.gogradle.models.GoPackage
-import com.pivotstir.gogradle.tasks.GoTest
+import com.pivotstir1.gogradle.models.GoPackage
+import com.pivotstir1.gogradle.tasks.GoTest
 import org.gradle.api.Project
 
 class GoDependenciesExtension(val project: Project) {

@@ -1,6 +1,6 @@
-package com.pivotstir.gogradle.tasks
+package com.pivotstir1.gogradle.tasks
 
-import com.pivotstir.gogradle.GradleSupport
+import com.pivotstir1.gogradle.GradleSupport
 import org.gradle.api.DefaultTask
 import org.gradle.api.tasks.TaskAction
 import java.io.File

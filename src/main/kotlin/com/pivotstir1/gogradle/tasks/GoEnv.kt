@@ -1,8 +1,8 @@
-package com.pivotstir.gogradle.tasks
+package com.pivotstir1.gogradle.tasks
 
-import com.pivotstir.gogradle.GoPlugin
-import com.pivotstir.gogradle.GradleSupport
-import com.pivotstir.gogradle.toURL
+import com.pivotstir1.gogradle.GoPlugin
+import com.pivotstir1.gogradle.GradleSupport
+import com.pivotstir1.gogradle.toURL
 import org.gradle.api.Project
 import org.gradle.api.tasks.Input
 import org.gradle.api.tasks.Optional

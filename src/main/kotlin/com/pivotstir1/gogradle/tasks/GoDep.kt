@@ -1,6 +1,6 @@
-package com.pivotstir.gogradle.tasks
+package com.pivotstir1.gogradle.tasks
 
-import com.pivotstir.gogradle.*
+import com.pivotstir1.gogradle.*
 import kotlinx.coroutines.*
 import org.gradle.api.Project
 import org.gradle.api.tasks.Input
@@ -18,7 +18,7 @@ class GoDepConfig(
         val minProtoVersion: String = "3.8.0",
         @Input @Optional var thirdpartyIgnored: Boolean = false,
         @Input @Optional var protoVersion: String = minProtoVersion,
-        @Input @Optional val swaggoVersion: String = "1.5.1"
+        @Input @Optional val swaggoVersion: String = "1.6.5"
 )
 
 @GradleSupport
